@@ -1,0 +1,60 @@
+.iframe-container{
+    position: relative;
+    width: 100%;
+    padding-bottom: 56.25%; 
+    height: 0;
+  }
+  .iframe-container video{
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+
+
+  #atlanticlight {
+    position: relative;
+    font-size: 0;
+    width: 100%;
+    margin: 0 auto;
+  }
+  #atlanticlight video,
+  #atlanticlight button {
+    width: 100%;
+    height: auto;
+  }
+  
+  #atlanticlight button svg {
+    width: 55%;
+    margin: 0 auto;
+    
+  }
+  
+  #atlanticlight video,
+  #atlanticlight button {
+    position: absolute;
+    top: 0;
+  }
+  
+  #atlanticlight button {
+    background: transparent;
+    outline: none;
+    border: none;
+    cursor: pointer;
+  }
+  
+  #atlanticlight button svg {
+    fill: #fff;
+    padding: 3rem;
+    transition: .6s opacity;
+  }
+  
+  #playpause {
+    display: none;
+    
+  }
+  
+  .playing {
+    opacity: 0;
+  }
